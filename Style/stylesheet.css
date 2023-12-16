@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Cairo";
+  scroll-behavior: smooth;
+}
+
+.custom-navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2c3e50;
+  border-top: 100px;
+  color: white;
+  padding: 0px 100px;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  border-top: solid crimson 5px;
+}
+
+header a {
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+header a:hover {
+  color: crimson;
+  font-size: 22px;
+  transition: ease 1s;
+}
+
+.carsour {
+  height: 100vh;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  color: black;
+  padding: 0px 100px;
+  background-repeat: no-repeat;
+  background-color: #2c3e50;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url(Images/profile.png);
+  background-size: cover;
+}
+
+.carsour span {
+  color: crimson;
+}
+
+.carsour a {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 50%;
+}
+
+.carsour a:hover {
+  background-color: crimson;
+  color: white;
+  transition: ease-out 1s;
+  font-size: 18px;
+}
+
+.about {
+  height: 60%;
+  background-color: white;
+}
+
+.about > div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.about h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: crimson;
+}
+
+.projects {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+}
+
+.projects h2 {
+  padding: 20px;
+}
+
+.pxx2 {
+  background-color: #2c3e50;
+}
+
+.projects .card {
+  margin: 20px;
+  height: 400px;
+  color: #2c3e50;
+  background-color: #fff;
+}
+.certifications {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.certifications h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #2c3e50;
+  border-bottom: solid crimson 5px;
+  align-items: center;
+  display: block;
+  color: #fff;
+  text-align: center;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.custom-carousel {
+  max-width: 600px; /* Adjust the value to your desired width */
+  margin: 0 auto; /* Center the carousel horizontally */
+}
+
+.containerC {
+  padding: 30px;
+}
+
+.containerC h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.banner-container {
+  margin-top: 76px;
+  background-image: url("Images/profile.png");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+  color: #ff0f0f;
+}
